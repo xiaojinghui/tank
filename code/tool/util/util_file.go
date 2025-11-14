@@ -77,7 +77,7 @@ func GetHtmlPath() string {
 	if EnvWinDevelopment() || EnvMacDevelopment() {
 		return GetDevHomePath() + "/build/html"
 	}
-	return GetHomePath() + "/html"
+	return GetHomePath() + "/build/html"
 }
 
 //if directory not exit, create it.

@@ -9,7 +9,7 @@ const (
 	USERNAME_KEY = "_username"
 	PASSWORD_KEY = "_password"
 
-	DEFAULT_SERVER_PORT = 6010
+	DEFAULT_SERVER_PORT = 32600
 
 	//db table's prefix. tank41_ means current version is tank:4.1.x
 	TABLE_PREFIX = "tank41_"
